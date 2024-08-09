@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Additional Python-related ignores
+*.sqlite3
+
+# Django-specific ignores
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.mo
+*.gif
+
+# IDE-specific ignores
+.vscode/
+.idea/
+
+# System-specific ignores
+.DS_Store
